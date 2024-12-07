@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    gap: 77px;
+
+    &__link {
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.div-header-general {
+    display: flex;
+    align-items: center;
+    gap: 530px;
+    padding: 66px 0px 71px;
+}
+
+header {
+    background-color: black;
+}

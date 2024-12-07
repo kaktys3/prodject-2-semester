@@ -1,0 +1,30 @@
+.div-main-general-section2 {
+    display: flex;
+    gap: 150px;
+
+    &__div-text-2half {
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__div-text-1half {
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__div-text-osnova {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__div-text {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}

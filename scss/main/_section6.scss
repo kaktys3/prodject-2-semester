@@ -1,0 +1,21 @@
+.div-main-general-section6 {
+    display: flex;
+    justify-content: end;
+    gap: 170px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__osnova-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__osnova-content-text {
+        width: 300px;
+    }
+}

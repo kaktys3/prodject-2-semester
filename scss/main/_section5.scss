@@ -1,0 +1,13 @@
+.div-main-general-section5 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px 170px 0px;
+
+    &__div-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 380px;
+    }
+}

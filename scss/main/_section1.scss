@@ -1,0 +1,39 @@
+.div-main-general-section1 {
+display: flex;
+
+    &__div-text-text1 {
+        width: 250px;
+    }
+
+    &__div-text-text2 {
+        width: 120px;
+    }
+
+    &__div-text {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    &__div-text-and-button-button {
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: white;
+        padding: 22px 156px;
+        background: #DF3D3A;
+        border: 0px;
+    }
+
+    &__div-text-and-button {
+        display: flex;
+        flex-direction: column;
+        gap: 86px;
+        padding: 94px 0px 0px 100px;
+    }
+}
+
+h1 {
+    width: 600px;
+}

@@ -1,0 +1,38 @@
+.div-main-general-section3 {
+    &__title {
+        padding: 0px 220px 0px 0px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 170px 0px;
+    align-items: center;
+
+    &__div-content-text1-half {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__div-content-text1-half-img {
+        height: 13px;
+    }
+
+    &__div-content-text1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__div-content-text2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__div-content {
+        display: flex;
+        gap: 220px;
+    }
+}
