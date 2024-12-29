@@ -1,6 +1,6 @@
 .div-main-general-section2 {
     display: flex;
-    gap: 150px;
+    gap: 100px;
 
     &__div-text-2half {
         width: 390px;
@@ -26,5 +26,11 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+    }
+}
+
+@media (max-width:1200px) {
+    .part2-section2 {
+        width: 480px;
     }
 }

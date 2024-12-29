@@ -1,0 +1,32 @@
+.div-main-general-section11 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    &__div-text {
+        display: flex;
+        justify-content: space-between;
+        width: 1029px;
+        padding: 0px 0px 24px;
+        border-bottom: 2px solid;
+    }
+
+    &__button {
+        color: white;
+        border-radius: 100%;
+        border: 0px;
+        padding: 11px 18px 11px 18px;
+        background-color: rgb(50, 45, 45);
+    }
+
+    &__osnova-content {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+}
+
+.section11-center {
+    display: flex;
+    justify-content: center;
+}

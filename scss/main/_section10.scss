@@ -1,0 +1,54 @@
+.div-main-general-section10 {
+    display: flex;
+    gap: 150px;
+
+    &__div-content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__div-content-text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__div-content-text-text {
+        width: 200px;
+    }
+
+    &__div-content-text-link {
+        color: #DF3D3A;
+        font-size: 28px;
+        display: flex;
+    }
+
+    &__div-content-div-link-link {
+        color: #DF3D3A;
+    }
+
+    &__video3 {
+        width: 920px;
+        height: 590px;
+    }
+
+    &__video2 {
+        width: 920px;
+        height: 590px;
+    }
+
+    &__video1 {
+        width: 920px;
+        height: 590px;
+    }
+}
+
+.active {
+    display: block;
+}
+
+.swiper-button-section10 {
+    display: flex;
+    gap: 12px;
+}

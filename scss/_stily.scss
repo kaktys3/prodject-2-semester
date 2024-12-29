@@ -32,3 +32,15 @@ h4 {
 body {
     background-color: black;
 }
+
+.container {
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+@media (max-width:1300px) {
+    h1 {
+        font-size: 44px;
+        width: 300px;
+    }
+}

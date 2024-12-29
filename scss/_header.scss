@@ -12,10 +12,16 @@
 .div-header-general {
     display: flex;
     align-items: center;
-    gap: 530px;
+    justify-content: space-between;
     padding: 66px 0px 71px;
+    width: 1280px;
 }
 
 header {
     background-color: black;
+}
+
+.container-pozishin-header {
+    display: flex;
+    justify-content: center;
 }

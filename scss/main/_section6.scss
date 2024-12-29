@@ -1,6 +1,6 @@
 .div-main-general-section6 {
     display: flex;
-    justify-content: end;
+    max-width: 1250px;
     gap: 170px;
 
     &__content {
@@ -17,5 +17,16 @@
 
     &__osnova-content-text {
         width: 300px;
+    }
+}
+
+.posishion-section6-main {
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width:1383px) {
+    .part2-section6 {
+        width: 500px;
     }
 }

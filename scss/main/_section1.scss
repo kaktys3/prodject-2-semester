@@ -1,5 +1,6 @@
 .div-main-general-section1 {
-display: flex;
+    display: flex;
+    margin: 0px 0px 170px 80px;
 
     &__div-text-text1 {
         width: 250px;
@@ -36,4 +37,18 @@ display: flex;
 
 h1 {
     width: 600px;
+}
+
+.part2-section1 {
+    width: 600px;
+}
+
+@media (max-width: 1300px) {
+    .part2-section1 {
+        width: 480px;
+    }    
+
+    .div-main-general-section1__div-text-and-button-button {
+        padding: 22px 122px;
+    }
 }
