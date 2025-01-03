@@ -294,9 +294,6 @@
     outline-offset: -2px; /* 2 */
   }
 /*a*/
-  /**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
   
   [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
